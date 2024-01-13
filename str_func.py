@@ -5,4 +5,5 @@ def string(line):
 
 def string1(line):
     '''Получение строки, где первая буква слова заглавная'''
-    return line.title()
+    new_line = line.title()
+    return new_line
